@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 5 npx json-server db.json --port 3001)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.pexels.com/photos/8224699/pexels-photo-8224699.jpeg?auto=compress&cs=tinysrgb&w=640\")",
+      "Bash(npm test:*)",
+      "Bash(npx vitest:*)",
+      "WebFetch(domain:images.pexels.com)",
+      "Bash(git --version)"
+    ]
+  }
+}

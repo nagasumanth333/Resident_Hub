@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background rounded square — teal brand colour -->
+  <rect width="32" height="32" rx="8" fill="#004d57"/>
+
+  <!-- Ground line -->
+  <rect x="3" y="27" width="26" height="1.5" rx="0.75" fill="white" fill-opacity="0.35"/>
+
+  <!-- Left tower -->
+  <rect x="3" y="15" width="7" height="12" rx="1.5" fill="white" fill-opacity="0.55"/>
+
+  <!-- Centre tower — tallest, hero element -->
+  <rect x="12" y="5" width="8" height="22" rx="1.5" fill="white" fill-opacity="1"/>
+
+  <!-- Centre tower penthouse cap -->
+  <rect x="14" y="5" width="4" height="5" rx="1" fill="white" fill-opacity="1"/>
+
+  <!-- Right tower -->
+  <rect x="22" y="11" width="7" height="16" rx="1.5" fill="white" fill-opacity="0.65"/>
+
+  <!-- Window dots on centre tower -->
+  <rect x="14.5" y="10" width="3" height="2" rx="0.75" fill="#004d57" fill-opacity="0.2"/>
+  <rect x="14.5" y="14.5" width="3" height="2" rx="0.75" fill="#004d57" fill-opacity="0.2"/>
+  <rect x="14.5" y="19" width="3" height="2" rx="0.75" fill="#004d57" fill-opacity="0.2"/>
+</svg>

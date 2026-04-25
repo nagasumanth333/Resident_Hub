@@ -1,0 +1,3487 @@
+{
+  "amenities": [
+    {
+      "id": "pool",
+      "title": "Infinity Swimming Pool",
+      "description": "Temperature-controlled olympic-sized pool with a separate children's splash area and poolside lounge.",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "FULLY BOOKED",
+      "badgeVariant": "booked",
+      "categories": [
+        "all",
+        "sports",
+        "wellness"
+      ],
+      "rating": "4.9",
+      "location": "Rooftop, Tower A",
+      "reviewCount": 210,
+      "capacityLabel": "Max 12 Guests",
+      "featured": true,
+      "bookPath": "/amenities/pool/book",
+      "footerInfo": "Waitlist Open",
+      "footerInfoMuted": true
+    },
+    {
+      "id": "badminton",
+      "title": "Badminton Courts",
+      "description": "Four professional-grade wooden courts with high-intensity floodlighting for evening play.",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.7",
+      "location": "Clubhouse, Level 3",
+      "reviewCount": 124,
+      "capacityLabel": "Max 4 Players",
+      "featured": false,
+      "bookPath": "/amenities/badminton/book",
+      "footerInfo": "4 Slots Left",
+      "footerInfoMuted": false
+    },
+    {
+      "id": "squash",
+      "title": "Squash Court",
+      "description": "Three air-conditioned squash courts with international standard dimensions and glass spectator viewing.",
+      "image": "https://images.pexels.com/photos/2524895/pexels-photo-2524895.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "LIMITED SLOTS",
+      "badgeVariant": "limited",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.6",
+      "location": "Clubhouse, Level 2",
+      "reviewCount": 87,
+      "capacityLabel": "Max 2 Players",
+      "featured": false,
+      "bookPath": null,
+      "footerInfo": "2 Slots Left",
+      "footerInfoMuted": false
+    },
+    {
+      "id": "grand-hall",
+      "title": "The Grand Hall",
+      "description": "Multi-purpose banquet hall for up to 200 guests. Equipped with professional sound system and catering prep kitchen.",
+      "image": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "events"
+      ],
+      "rating": "4.8",
+      "location": "Podium, Level 1",
+      "reviewCount": 56,
+      "capacityLabel": "Up to 200 Guests",
+      "featured": false,
+      "bookPath": null,
+      "footerInfo": "Available",
+      "footerInfoMuted": true
+    },
+    {
+      "id": "wellness-hub",
+      "title": "Wellness Hub",
+      "description": "State-of-the-art fitness center with cardio zones, free weights, and dedicated yoga & pilates studio.",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "wellness"
+      ],
+      "rating": "4.8",
+      "location": "Podium, Level 2",
+      "reviewCount": 142,
+      "capacityLabel": "Open Access",
+      "featured": false,
+      "bookPath": null,
+      "footerInfo": "Open Now",
+      "footerInfoMuted": true
+    },
+    {
+      "id": "cricket-nets",
+      "title": "Cricket Nets",
+      "description": "Four professional practice nets with synthetic turf pitches and automated bowling machines. Ideal for batting drills, net sessions and fielding practice.",
+      "image": "https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.5",
+      "location": "Outdoor Courts, Ground Level",
+      "reviewCount": 67,
+      "capacityLabel": "Max 6 Players",
+      "featured": false,
+      "bookPath": "/amenities/cricket-nets/book",
+      "footerInfo": "6 Slots Left",
+      "footerInfoMuted": false
+    },
+    {
+      "id": "pickleball",
+      "title": "Pickleball Court",
+      "description": "Two dedicated pickleball courts with cushioned hard surfaces and permanent court markings. Paddles and balls available at the equipment counter.",
+      "image": "https://images.pexels.com/photos/32975182/pexels-photo-32975182.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.6",
+      "location": "Clubhouse, Level 2",
+      "reviewCount": 43,
+      "capacityLabel": "Max 4 Players",
+      "featured": false,
+      "bookPath": "/amenities/pickleball/book",
+      "footerInfo": "Available",
+      "footerInfoMuted": true
+    },
+    {
+      "id": "tennis",
+      "title": "Tennis Courts",
+      "description": "Two floodlit hard courts with ITF-approved surfaces. Ball machines, racket rental and court bookings available. Professional coaching sessions on request.",
+      "image": "https://images.pexels.com/photos/1103829/pexels-photo-1103829.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "LIMITED SLOTS",
+      "badgeVariant": "limited",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.8",
+      "location": "Outdoor Courts, Level 1",
+      "reviewCount": 156,
+      "capacityLabel": "Max 4 Players",
+      "featured": false,
+      "bookPath": "/amenities/tennis/book",
+      "footerInfo": "3 Slots Left",
+      "footerInfoMuted": false
+    },
+    {
+      "id": "football",
+      "title": "5-a-Side Football",
+      "description": "Floodlit synthetic turf pitch for fast-paced 5-a-side matches. Goals, coloured bibs and match equipment provided. Monthly weekend tournaments open to all residents.",
+      "image": "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "sports"
+      ],
+      "rating": "4.7",
+      "location": "Sports Ground, Tower B",
+      "reviewCount": 92,
+      "capacityLabel": "Max 10 Players",
+      "featured": false,
+      "bookPath": "/amenities/football/book",
+      "footerInfo": "Available",
+      "footerInfoMuted": true
+    },
+    {
+      "id": "skating-rink",
+      "title": "Skating Rink",
+      "description": "Covered inline skating rink with LED ambient lighting and a smooth maple-composite surface. Skate hire included with every booking. Friday evenings feature resident DJ sessions.",
+      "image": "https://images.pexels.com/photos/1571939/pexels-photo-1571939.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "badge": "OPEN",
+      "badgeVariant": "open",
+      "categories": [
+        "all",
+        "sports",
+        "wellness"
+      ],
+      "rating": "4.4",
+      "location": "Podium, Level 3",
+      "reviewCount": 38,
+      "capacityLabel": "Max 30 Skaters",
+      "featured": false,
+      "bookPath": "/amenities/skating-rink/book",
+      "footerInfo": "Open Now",
+      "footerInfoMuted": true
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot-badminton-2026-04-12-08",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "08:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-09",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-10",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-11",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-12",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-13",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "01:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-14",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-15",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-16",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-17",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-12-18",
+      "amenityId": "badminton",
+      "date": "2026-04-12",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-08",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-09",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-10",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-11",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-12",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-13",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-14",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-15",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-16",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-17",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-13-18",
+      "amenityId": "badminton",
+      "date": "2026-04-13",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-08",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-09",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-10",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-11",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-12",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-13",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-14",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-15",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-16",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-17",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-14-18",
+      "amenityId": "badminton",
+      "date": "2026-04-14",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-08",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-09",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-10",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-11",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-12",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "12:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-13",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-14",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-15",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-16",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-17",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-15-18",
+      "amenityId": "badminton",
+      "date": "2026-04-15",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-08",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-09",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-10",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-11",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-12",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-13",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-14",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-15",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-16",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-17",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-16-18",
+      "amenityId": "badminton",
+      "date": "2026-04-16",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-08",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-09",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-10",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-11",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-12",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-13",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-14",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-15",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-16",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-17",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-17-18",
+      "amenityId": "badminton",
+      "date": "2026-04-17",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-08",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-09",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-10",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-11",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-12",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-13",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-14",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-15",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-16",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-17",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-badminton-2026-04-18-18",
+      "amenityId": "badminton",
+      "date": "2026-04-18",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-08",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "08:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-12-09",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "09:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-12-10",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-12-11",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-12",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-13",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-14",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-15",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-16",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-12-17",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-12-18",
+      "amenityId": "pool",
+      "date": "2026-04-12",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-08",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "08:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-13-09",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-10",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-11",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-12",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-13",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-14",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-15",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-16",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-17",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-13-18",
+      "amenityId": "pool",
+      "date": "2026-04-13",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-08",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-09",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-10",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-11",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-12",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-13",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-14",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-15",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-16",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-17",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-14-18",
+      "amenityId": "pool",
+      "date": "2026-04-14",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-08",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-09",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-10",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-11",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-12",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-13",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "01:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pool-2026-04-15-14",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-15",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-16",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-17",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-15-18",
+      "amenityId": "pool",
+      "date": "2026-04-15",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-08",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-09",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-10",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-11",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-12",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-13",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-14",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-15",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-16",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-17",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-16-18",
+      "amenityId": "pool",
+      "date": "2026-04-16",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-08",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-09",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-10",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-11",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-12",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-13",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-14",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-15",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-16",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-17",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-17-18",
+      "amenityId": "pool",
+      "date": "2026-04-17",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-08",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-09",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-10",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-11",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-12",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-13",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-14",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-15",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-16",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-17",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pool-2026-04-18-18",
+      "amenityId": "pool",
+      "date": "2026-04-18",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-08",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "08:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-09",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-10",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-11",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-12",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-13",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-14",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-15",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-16",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-17",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-22-18",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-22",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-08",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-09",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-10",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-11",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-12",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-13",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-14",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-15",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-16",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-17",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-23-18",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-23",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-08",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-09",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-10",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-11",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-12",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-13",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "01:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-14",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-15",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-16",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-17",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-24-18",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-24",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-08",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-09",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-10",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-11",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-12",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-13",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-14",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-15",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-16",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-17",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-25-18",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-25",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-08",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-09",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "09:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-10",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-11",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-12",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-13",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-14",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-15",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-16",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-17",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-cricket-nets-2026-04-26-18",
+      "amenityId": "cricket-nets",
+      "date": "2026-04-26",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-08",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-09",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-10",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-11",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-12",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-13",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-14",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-15",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-16",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-17",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-22-18",
+      "amenityId": "pickleball",
+      "date": "2026-04-22",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-08",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-09",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-10",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-11",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-12",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-13",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-14",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-15",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-16",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-17",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-23-18",
+      "amenityId": "pickleball",
+      "date": "2026-04-23",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-08",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-09",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-10",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-11",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-12",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-13",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-14",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-15",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-16",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-17",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-24-18",
+      "amenityId": "pickleball",
+      "date": "2026-04-24",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-08",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-09",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-10",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-11",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-12",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "12:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-13",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-14",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-15",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-16",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-17",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-25-18",
+      "amenityId": "pickleball",
+      "date": "2026-04-25",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-08",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-09",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-10",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-11",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-12",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-13",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-14",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-15",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-16",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-17",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-pickleball-2026-04-26-18",
+      "amenityId": "pickleball",
+      "date": "2026-04-26",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-08",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-09",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "09:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-10",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-11",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-12",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "12:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-13",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-14",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-15",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-16",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-17",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-22-18",
+      "amenityId": "tennis",
+      "date": "2026-04-22",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-08",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-09",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-10",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-11",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-12",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-13",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-14",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-15",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "03:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-16",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-17",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-23-18",
+      "amenityId": "tennis",
+      "date": "2026-04-23",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-08",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-09",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "09:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-10",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-11",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-12",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-13",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "01:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-14",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-15",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-16",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-17",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-24-18",
+      "amenityId": "tennis",
+      "date": "2026-04-24",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-08",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "08:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-09",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-10",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-11",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "11:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-12",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "12:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-13",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-14",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-15",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-16",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-17",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-25-18",
+      "amenityId": "tennis",
+      "date": "2026-04-25",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-08",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-09",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-10",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-11",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-12",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-13",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-14",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-15",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "03:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-16",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-17",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-tennis-2026-04-26-18",
+      "amenityId": "tennis",
+      "date": "2026-04-26",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-08",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-09",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-10",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-11",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-12",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-13",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-14",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-15",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-22-16",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-22-17",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "05:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-22-18",
+      "amenityId": "football",
+      "date": "2026-04-22",
+      "label": "06:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-23-08",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-09",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-10",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-11",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-12",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-13",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-14",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-15",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-16",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-23-17",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "05:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-23-18",
+      "amenityId": "football",
+      "date": "2026-04-23",
+      "label": "06:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-24-08",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-09",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-10",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-11",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-12",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-13",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-14",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-15",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-24-16",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-24-17",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "05:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-24-18",
+      "amenityId": "football",
+      "date": "2026-04-24",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-08",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-09",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-10",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-11",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-12",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-13",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-14",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-15",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-16",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-17",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-25-18",
+      "amenityId": "football",
+      "date": "2026-04-25",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-08",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-09",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-10",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-11",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-12",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-13",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-14",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-15",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-football-2026-04-26-16",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-26-17",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "05:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-football-2026-04-26-18",
+      "amenityId": "football",
+      "date": "2026-04-26",
+      "label": "06:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-08",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-09",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-10",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-11",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-12",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-13",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-14",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-15",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-16",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-17",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-22-18",
+      "amenityId": "skating-rink",
+      "date": "2026-04-22",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-08",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-09",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-10",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-11",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-12",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-13",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-14",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-15",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-16",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-17",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-23-18",
+      "amenityId": "skating-rink",
+      "date": "2026-04-23",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-08",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-09",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-10",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-11",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-12",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-13",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-14",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-15",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-16",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-17",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-24-18",
+      "amenityId": "skating-rink",
+      "date": "2026-04-24",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-08",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-09",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-10",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-11",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-12",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-13",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-14",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "02:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-15",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "03:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-16",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "04:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-17",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-25-18",
+      "amenityId": "skating-rink",
+      "date": "2026-04-25",
+      "label": "06:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-08",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "08:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-09",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "09:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-10",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-11",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-12",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-13",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "01:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-14",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "02:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-15",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "03:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-16",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "04:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-17",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "05:00 PM",
+      "status": "available"
+    },
+    {
+      "id": "slot-skating-rink-2026-04-26-18",
+      "amenityId": "skating-rink",
+      "date": "2026-04-26",
+      "label": "06:00 PM",
+      "status": "available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b-u1",
+      "userId": "user-001",
+      "amenityId": "pool",
+      "amenityTitle": "Skyview Infinity Pool",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": "slot-pool-2026-04-12-16",
+      "status": "cancelled",
+      "date": "2026-04-12",
+      "time": "4:00 PM - 6:00 PM"
+    },
+    {
+      "id": "b-u2",
+      "userId": "user-001",
+      "amenityId": "grand-hall",
+      "amenityTitle": "Private Screening Room",
+      "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2026-04-13",
+      "time": "7:00 PM - 10:00 PM"
+    },
+    {
+      "id": "b-h1",
+      "userId": "user-001",
+      "amenityId": "badminton",
+      "amenityTitle": "Championship Tennis Court",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2023-10-18",
+      "time": "09:00 AM"
+    },
+    {
+      "id": "b-h2",
+      "userId": "user-001",
+      "amenityId": "wellness-hub",
+      "amenityTitle": "Wellness Sauna & Spa",
+      "image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2023-10-15",
+      "time": "05:30 PM"
+    },
+    {
+      "id": "b-h3",
+      "userId": "user-001",
+      "amenityId": "wellness-hub",
+      "amenityTitle": "Personal Training Studio",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2023-10-12",
+      "time": "07:00 AM"
+    },
+    {
+      "id": "b-h4",
+      "userId": "user-001",
+      "amenityId": "squash",
+      "amenityTitle": "Squash Court",
+      "image": "https://images.pexels.com/photos/2524895/pexels-photo-2524895.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-12-20",
+      "time": "02:00 PM"
+    },
+    {
+      "id": "b-h5",
+      "userId": "user-001",
+      "amenityId": "pool",
+      "amenityTitle": "Skyview Infinity Pool",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2025-11-08",
+      "time": "10:00 AM"
+    },
+    {
+      "id": "b-h6",
+      "userId": "user-001",
+      "amenityId": "wellness-hub",
+      "amenityTitle": "Wellness Sauna & Spa",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-10-15",
+      "time": "07:00 AM"
+    },
+    {
+      "id": "b-h7",
+      "userId": "user-001",
+      "amenityId": "badminton",
+      "amenityTitle": "Badminton Courts",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-09-03",
+      "time": "06:00 PM"
+    },
+    {
+      "id": "b-h8",
+      "userId": "user-001",
+      "amenityId": "grand-hall",
+      "amenityTitle": "Grand Hall Event Space",
+      "image": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-07-20",
+      "time": "04:00 PM"
+    },
+    {
+      "id": "b-h9",
+      "userId": "user-001",
+      "amenityId": "squash",
+      "amenityTitle": "Squash Court",
+      "image": "https://images.pexels.com/photos/2524895/pexels-photo-2524895.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2025-06-14",
+      "time": "11:00 AM"
+    },
+    {
+      "id": "b-h10",
+      "userId": "user-001",
+      "amenityId": "pool",
+      "amenityTitle": "Skyview Infinity Pool",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-04-22",
+      "time": "03:00 PM"
+    },
+    {
+      "id": "b-h11",
+      "userId": "user-001",
+      "amenityId": "wellness-hub",
+      "amenityTitle": "Personal Training Studio",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2025-03-09",
+      "time": "09:00 AM"
+    },
+    {
+      "id": "b-h12",
+      "userId": "user-001",
+      "amenityId": "badminton",
+      "amenityTitle": "Badminton Courts",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2025-01-18",
+      "time": "05:00 PM"
+    },
+    {
+      "id": "b-h13",
+      "userId": "user-001",
+      "amenityId": "grand-hall",
+      "amenityTitle": "Grand Hall Event Space",
+      "image": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2024-11-30",
+      "time": "07:00 PM"
+    },
+    {
+      "id": "b-h14",
+      "userId": "user-001",
+      "amenityId": "pool",
+      "amenityTitle": "Skyview Infinity Pool",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2024-10-05",
+      "time": "08:00 AM"
+    },
+    {
+      "id": "b-h15",
+      "userId": "user-001",
+      "amenityId": "squash",
+      "amenityTitle": "Squash Court",
+      "image": "https://images.pexels.com/photos/2524895/pexels-photo-2524895.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2024-08-17",
+      "time": "01:00 PM"
+    },
+    {
+      "id": "b-h16",
+      "userId": "user-001",
+      "amenityId": "wellness-hub",
+      "amenityTitle": "Wellness Sauna & Spa",
+      "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2024-06-25",
+      "time": "06:00 AM"
+    },
+    {
+      "id": "b-h17",
+      "userId": "user-001",
+      "amenityId": "badminton",
+      "amenityTitle": "Badminton Courts",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "cancelled",
+      "date": "2024-04-11",
+      "time": "04:00 PM"
+    },
+    {
+      "id": "b-h18",
+      "userId": "user-001",
+      "amenityId": "grand-hall",
+      "amenityTitle": "Grand Hall Event Space",
+      "image": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop",
+      "slotId": null,
+      "status": "completed",
+      "date": "2024-02-03",
+      "time": "06:00 PM"
+    },
+    {
+      "id": "bz6ifP55mgA",
+      "userId": "user-001",
+      "status": "cancelled",
+      "amenityId": "badminton",
+      "amenityTitle": "Badminton Courts",
+      "image": "https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "slotId": "slot-badminton-2026-04-12-11",
+      "date": "2026-04-12",
+      "time": "11:00 AM"
+    },
+    {
+      "id": "-Q4dOc9cYFQ",
+      "userId": "user-001",
+      "status": "cancelled",
+      "amenityId": "pickleball",
+      "amenityTitle": "Pickleball Court",
+      "image": "https://images.pexels.com/photos/32975182/pexels-photo-32975182.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "slotId": "slot-pickleball-2026-04-22-14",
+      "date": "2026-04-22",
+      "time": "02:00 PM"
+    },
+    {
+      "id": "9er6i0bMw8A",
+      "userId": "user-001",
+      "status": "confirmed",
+      "amenityId": "cricket-nets",
+      "amenityTitle": "Cricket Nets",
+      "image": "https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "slotId": "slot-cricket-nets-2026-04-26-10",
+      "date": "2026-04-26",
+      "time": "10:00 AM"
+    },
+    {
+      "id": "0UO_io6ANvU",
+      "userId": "user-001",
+      "status": "confirmed",
+      "amenityId": "tennis",
+      "amenityTitle": "Tennis Courts",
+      "image": "https://images.pexels.com/photos/1103829/pexels-photo-1103829.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "slotId": "slot-tennis-2026-04-25-08",
+      "date": "2026-04-25",
+      "time": "08:00 AM"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Naga Sumanth",
+      "residentId": "resident.042",
+      "email": "julian@residenthub.com",
+      "phone": "+1 (555) 234-8901"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
