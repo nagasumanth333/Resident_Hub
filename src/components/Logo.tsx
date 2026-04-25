@@ -94,7 +94,7 @@ export function Logo({ size = 'md', asLink = true, variant = 'default', classNam
     <Link
       to="/"
       className="shrink-0 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-      aria-label="ResidentHub — go to home"
+      aria-label="Resident Hub — go to home"
     >
       {mark}
     </Link>
