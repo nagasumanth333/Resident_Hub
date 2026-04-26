@@ -34,12 +34,12 @@ export type Location   = (typeof LOCATIONS)[number]['value']
 export type Priority   = (typeof PRIORITIES)[number]['value']
 
 export const maintenanceSchema = z.object({
-  issueType:   z.enum(ISSUE_TYPES.map((t) => t.value)  as [IssueType, ...IssueType[]],  { required_error: 'Select an issue type' }),
-  location:    z.enum(LOCATIONS.map((l) => l.value)     as [Location, ...Location[]],    { required_error: 'Select a location' }),
-  priority:    z.enum(PRIORITIES.map((p) => p.value)    as [Priority, ...Priority[]],    { required_error: 'Select a priority' }),
+  issueType:   z.enum(ISSUE_TYPES.map((t) => t.value)  as [IssueType, ...IssueType[]],  { error: 'Select an issue type' }),
+  location:    z.enum(LOCATIONS.map((l) => l.value)     as [Location, ...Location[]],    { error: 'Select a location' }),
+  priority:    z.enum(PRIORITIES.map((p) => p.value)    as [Priority, ...Priority[]],    { error: 'Select a priority' }),
   title:       z.string().trim().min(4, 'Title must be at least 4 characters').max(100),
   description: z.string().trim().min(10, 'Please describe the issue in at least 10 characters').max(1000),
-  preferredTime: z.enum(['morning', 'afternoon', 'evening', 'any'], { required_error: 'Select a preferred time' }),
+  preferredTime: z.enum(['morning', 'afternoon', 'evening', 'any'] as const, { error: 'Select a preferred time' }),
 })
 
 export type MaintenanceFormValues = z.infer<typeof maintenanceSchema>
