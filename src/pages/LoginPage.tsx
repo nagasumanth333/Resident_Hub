@@ -1,51 +1,17 @@
-import { zodResolver } from '@hookform/resolvers/zod'
-import {
-  ArrowRight,
-  Lock,
-  ShieldCheck,
-  User,
-} from 'lucide-react'
-import { Controller, useForm } from 'react-hook-form'
+import { ShieldCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import { useNavigate } from 'react-router-dom'
-import { toast } from 'sonner'
 import { Logo } from '@/components/Logo'
-import { Button } from '@/components/ui/button'
-import { Checkbox } from '@/components/ui/checkbox'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
+import { useAuth } from '@/contexts/AuthContext'
 import { cn } from '@/lib/utils'
-import { loginSchema, type LoginFormValues } from '@/schemas/login'
 
 const TEAL = '#0E5E6F'
-const INPUT_BG = '#F3F4F6'
 
 const HERO_IMAGE =
   'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200'
 
 export function LoginPage() {
   const { t } = useTranslation()
-  const navigate = useNavigate()
-  const {
-    register,
-    control,
-    handleSubmit,
-    formState: { errors, isSubmitting },
-  } = useForm<LoginFormValues>({
-    resolver: zodResolver(loginSchema),
-    defaultValues: {
-      residentId: '',
-      password: '',
-      remember: false,
-    },
-  })
-
-  function onValid() {
-    toast.success(t('login.welcomeBack'), {
-      description: t('login.signedIn'),
-    })
-    navigate('/')
-  }
+  const { login } = useAuth()
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#F3F4F6] p-4 sm:p-6">
@@ -94,12 +60,13 @@ export function LoginPage() {
           </div>
         </div>
 
-        {/* Right: form */}
+        {/* Right: sign-in */}
         <div className="flex flex-col justify-center px-6 py-10 sm:px-10 lg:px-12">
-          <div className="mx-auto w-full max-w-md space-y-8">
+          <div className="mx-auto w-full max-w-sm space-y-8">
             <div className="md:hidden">
               <Logo size="md" asLink={false} />
             </div>
+
             <div className="space-y-2">
               <h2 className="text-2xl font-bold tracking-tight text-[#1F2937] sm:text-3xl">
                 {t('login.title')}
@@ -109,131 +76,18 @@ export function LoginPage() {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit(onValid)} className="space-y-5" noValidate>
-              <div className="space-y-2">
-                <Label htmlFor="resident-id" className="text-[#374151]">
-                  {t('login.residentId')}
-                </Label>
-                <div className="relative">
-                  <User
-                    className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#9CA3AF]"
-                    aria-hidden
-                  />
-                  <Input
-                    id="resident-id"
-                    type="text"
-                    autoComplete="username"
-                    placeholder={t('login.residentIdPlaceholder')}
-                    aria-invalid={!!errors.residentId}
-                    className={cn(
-                      'h-11 border-0 pl-10 text-[#1F2937] placeholder:text-[#9CA3AF]',
-                      errors.residentId &&
-                        'ring-2 ring-destructive/40 focus-visible:ring-destructive/50',
-                    )}
-                    style={{ backgroundColor: INPUT_BG }}
-                    {...register('residentId')}
-                  />
-                </div>
-                {errors.residentId ? (
-                  <p className="text-sm text-destructive" role="alert">
-                    {errors.residentId.message}
-                  </p>
-                ) : null}
-              </div>
-
-              <div className="space-y-2">
-                <div className="flex items-center justify-between gap-2">
-                  <Label htmlFor="password" className="text-[#374151]">
-                    {t('login.password')}
-                  </Label>
-                  <button
-                    type="button"
-                    className="cursor-pointer text-[10px] font-bold tracking-wide uppercase hover:underline"
-                    style={{ color: TEAL }}
-                  >
-                    {t('login.forgotPassword')}
-                  </button>
-                </div>
-                <div className="relative">
-                  <Lock
-                    className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#9CA3AF]"
-                    aria-hidden
-                  />
-                  <Input
-                    id="password"
-                    type="password"
-                    autoComplete="current-password"
-                    placeholder="••••••••••••"
-                    aria-invalid={!!errors.password}
-                    className={cn(
-                      'h-11 border-0 pl-10 text-[#1F2937] placeholder:text-[#9CA3AF]',
-                      errors.password &&
-                        'ring-2 ring-destructive/40 focus-visible:ring-destructive/50',
-                    )}
-                    style={{ backgroundColor: INPUT_BG }}
-                    {...register('password')}
-                  />
-                </div>
-                {errors.password ? (
-                  <p className="text-sm text-destructive" role="alert">
-                    {errors.password.message}
-                  </p>
-                ) : null}
-              </div>
-
-              <div className="flex items-center gap-2">
-                <Controller
-                  name="remember"
-                  control={control}
-                  render={({ field }) => (
-                    <Checkbox
-                      id="remember"
-                      checked={field.value}
-                      onCheckedChange={(v) => field.onChange(v === true)}
-                      ref={field.ref}
-                      onBlur={field.onBlur}
-                    />
-                  )}
-                />
-                <Label
-                  htmlFor="remember"
-                  className="cursor-pointer text-sm font-normal text-[#6B7280]"
-                >
-                  {t('login.remember')}
-                </Label>
-              </div>
-
-              <Button
-                type="submit"
-                disabled={isSubmitting}
-                className="h-11 w-full text-base font-bold text-white shadow-sm"
-                style={{ backgroundColor: TEAL }}
+            <div className="flex flex-col items-center gap-4">
+              <button
+                type="button"
+                onClick={login}
+                className="flex w-full cursor-pointer items-center justify-center gap-3 rounded-md border border-[#DADCE0] bg-white px-4 py-2.5 text-sm font-medium text-[#3C4043] shadow-sm transition hover:bg-[#F8F9FA] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0E5E6F]"
               >
-                {t('login.signIn')}
-              </Button>
-            </form>
-
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center" aria-hidden>
-                <span className="w-full border-t border-[#E5E7EB]" />
-              </div>
-              <div className="relative flex justify-center text-[10px] font-semibold tracking-[0.15em] text-[#9CA3AF] uppercase">
-                <span className="bg-white px-3">{t('login.newResident')}</span>
-              </div>
+                <GoogleIcon />
+                Sign in with Google
+              </button>
             </div>
 
-            <div className="text-center">
-              <a
-                href="mailto:concierge@residenthub.com"
-                className="cursor-pointer inline-flex items-center gap-1 text-sm font-semibold hover:underline"
-                style={{ color: TEAL }}
-              >
-                {t('login.contactConcierge')}
-                <ArrowRight className="size-4" aria-hidden />
-              </a>
-            </div>
-
-            <footer className="space-y-2 border-t border-transparent pt-2 text-center text-[11px] text-[#9CA3AF]">
+            <footer className="space-y-2 border-t border-[#E5E7EB] pt-4 text-center text-[11px] text-[#9CA3AF]">
               <p>{t('login.copyright')}</p>
               <p className="flex flex-wrap items-center justify-center gap-2">
                 <button type="button" className="cursor-pointer hover:underline">
@@ -249,5 +103,28 @@ export function LoginPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+function GoogleIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden>
+      <path
+        fill="#4285F4"
+        d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z"
+      />
+      <path
+        fill="#34A853"
+        d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332z"
+      />
+      <path
+        fill="#EA4335"
+        d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"
+      />
+    </svg>
   )
 }

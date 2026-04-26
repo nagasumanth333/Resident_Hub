@@ -2,9 +2,10 @@ import { Bell, BookOpen, ChevronDown, LogOut, Mail, MapPin, Moon, Phone, Sun, Us
 import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link as RouterLink, NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { Avatar, AvatarFallback } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
+import { useAuth } from '@/contexts/AuthContext'
 import { useTheme, type Theme } from '@/contexts/ThemeContext'
 import { Logo } from '@/components/Logo'
 import { useUser } from '@/hooks/useUser'
@@ -249,13 +250,16 @@ function ThemeSwitcher() {
 
 function ProfileDropdown() {
   const navigate = useNavigate()
+  const { logout } = useAuth()
   const { open, setOpen, containerRef, triggerRef } = useDropdown()
   const itemRefs = useRef<(HTMLButtonElement | HTMLAnchorElement | null)[]>([])
   const { data: user } = useUser()
-  const displayName = user?.name ?? 'Julian Ashworth'
-  const residentId = user?.residentId ?? 'resident.042'
+  const { user: authUser } = useAuth()
+  const displayName = user?.name ?? authUser?.name ?? 'Resident'
+  const residentId = user?.residentId ?? authUser?.email ?? ''
   const initials = getInitials(displayName)
-  const firstInitial = initials[0] ?? 'J'
+  const firstInitial = initials[0] ?? 'R'
+  const picture = authUser?.picture
 
   useEffect(() => {
     if (open) requestAnimationFrame(() => itemRefs.current[0]?.focus())
@@ -300,6 +304,7 @@ function ProfileDropdown() {
           className="size-9"
           style={{ backgroundColor: `${teal}18`, color: teal }}
         >
+          {picture && <AvatarImage src={picture} alt={displayName} referrerPolicy="no-referrer" />}
           <AvatarFallback className="bg-transparent text-sm font-bold">{firstInitial}</AvatarFallback>
         </Avatar>
         <ChevronDown
@@ -318,6 +323,7 @@ function ProfileDropdown() {
           <div className="px-4 py-3.5" style={{ backgroundColor: `${teal}08` }}>
             <div className="flex items-center gap-3">
               <Avatar className="size-10" style={{ backgroundColor: teal, color: 'white' }}>
+                {picture && <AvatarImage src={picture} alt={displayName} referrerPolicy="no-referrer" />}
                 <AvatarFallback className="bg-transparent text-sm font-black text-white">{initials}</AvatarFallback>
               </Avatar>
               <div className="min-w-0">
@@ -357,7 +363,7 @@ function ProfileDropdown() {
               role="menuitem"
               tabIndex={-1}
               type="button"
-              onClick={() => { navigate('/login'); setOpen(false) }}
+              onClick={() => { logout(); navigate('/login', { replace: true }); setOpen(false) }}
               onKeyDown={(e) => handleItemKeyDown(e, MENU_ITEMS.length, MENU_ITEMS.length + 1)}
               className="flex w-full cursor-pointer items-center gap-2.5 px-4 py-2.5 text-left text-sm text-destructive transition-colors hover:bg-destructive/5 focus:bg-destructive/5 focus:outline-none"
             >

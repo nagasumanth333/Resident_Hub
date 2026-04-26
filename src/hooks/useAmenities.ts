@@ -1,39 +1,17 @@
-import { useQuery } from '@tanstack/react-query'
-import { api } from '@/lib/api'
-
-export type Amenity = {
-  id: string
-  title: string
-  description: string
-  image: string
-  badge: string
-  badgeVariant: 'open' | 'limited' | 'booked'
-  categories: string[]
-  rating: string
-  location: string
-  reviewCount: number
-  capacityLabel: string
-  featured: boolean
-  bookPath: string | null
-  footerInfo: string
-  footerInfoMuted: boolean
-}
+import { useMemo } from 'react'
+import { AMENITIES, getAmenity } from '@/data/amenities'
+export type { Amenity } from '@/data/amenities'
 
 export function useAmenities(category?: string) {
-  return useQuery({
-    queryKey: ['amenities', category ?? 'all'],
-    queryFn: async () => {
-      const all = await api.get<Amenity[]>('/amenities')
-      if (!category || category === 'all') return all
-      return all.filter((a) => a.categories.includes(category))
-    },
-  })
+  const data = useMemo(() => {
+    if (!category || category === 'all') return AMENITIES
+    return AMENITIES.filter((a) => a.categories.includes(category))
+  }, [category])
+
+  return { data, isLoading: false, error: null }
 }
 
 export function useAmenity(id: string) {
-  return useQuery({
-    queryKey: ['amenities', id],
-    queryFn: () => api.get<Amenity>(`/amenities/${id}`),
-    enabled: !!id,
-  })
+  const data = useMemo(() => getAmenity(id), [id])
+  return { data, isLoading: false, error: null }
 }
