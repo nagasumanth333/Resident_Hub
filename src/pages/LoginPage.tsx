@@ -148,7 +148,7 @@ export function LoginPage() {
                   </Label>
                   <button
                     type="button"
-                    className="text-[10px] font-bold tracking-wide uppercase hover:underline"
+                    className="cursor-pointer text-[10px] font-bold tracking-wide uppercase hover:underline"
                     style={{ color: TEAL }}
                   >
                     {t('login.forgotPassword')}
@@ -225,7 +225,7 @@ export function LoginPage() {
             <div className="text-center">
               <a
                 href="mailto:concierge@residenthub.com"
-                className="inline-flex items-center gap-1 text-sm font-semibold hover:underline"
+                className="cursor-pointer inline-flex items-center gap-1 text-sm font-semibold hover:underline"
                 style={{ color: TEAL }}
               >
                 {t('login.contactConcierge')}
@@ -236,11 +236,11 @@ export function LoginPage() {
             <footer className="space-y-2 border-t border-transparent pt-2 text-center text-[11px] text-[#9CA3AF]">
               <p>{t('login.copyright')}</p>
               <p className="flex flex-wrap items-center justify-center gap-2">
-                <button type="button" className="hover:underline">
+                <button type="button" className="cursor-pointer hover:underline">
                   {t('login.privacy')}
                 </button>
                 <span aria-hidden>·</span>
-                <button type="button" className="hover:underline">
+                <button type="button" className="cursor-pointer hover:underline">
                   {t('login.terms')}
                 </button>
               </p>

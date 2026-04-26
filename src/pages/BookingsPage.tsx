@@ -160,7 +160,7 @@ function RescheduleModal({
           <button
             type="button"
             onClick={onClose}
-            className="rounded-lg p-1.5 text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            className="cursor-pointer rounded-lg p-1.5 text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             aria-label="Close reschedule dialog"
           >
             <X className="size-5" aria-hidden="true" />
@@ -429,7 +429,7 @@ function HistoryList({ items, showViewAll }: { items: Booking[]; showViewAll?: b
                     {row.status === 'completed' ? (
                       <Link
                         to="/amenities"
-                        className="text-sm font-semibold hover:underline"
+                        className="cursor-pointer text-sm font-semibold hover:underline"
                         style={{ color: TEAL }}
                         aria-label={`${t('bookings.bookAgain')} — ${row.amenityTitle}`}
                       >
@@ -438,7 +438,7 @@ function HistoryList({ items, showViewAll }: { items: Booking[]; showViewAll?: b
                     ) : (
                       <button
                         type="button"
-                        className="text-sm font-semibold hover:underline"
+                        className="cursor-pointer text-sm font-semibold hover:underline"
                         style={{ color: TEAL }}
                         aria-label={`${t('bookings.details')} — ${row.amenityTitle}`}
                       >
@@ -457,7 +457,7 @@ function HistoryList({ items, showViewAll }: { items: Booking[]; showViewAll?: b
             <div className="flex justify-center py-4">
               <Link
                 to="/bookings?tab=history"
-                className="text-sm font-semibold hover:underline"
+                className="cursor-pointer text-sm font-semibold hover:underline"
                 style={{ color: TEAL }}
               >
                 {t('bookings.viewFullHistory')}
@@ -673,7 +673,7 @@ export function BookingsPage() {
                           aria-busy={cancelBooking.isPending}
                           onClick={() => cancelBooking.mutate(b.id)}
                           aria-label={`${t('bookings.cancel')} — ${b.amenityTitle}`}
-                          className="text-sm font-semibold transition-opacity hover:opacity-70 disabled:opacity-40"
+                          className="cursor-pointer text-sm font-semibold transition-opacity hover:opacity-70 disabled:opacity-40"
                           style={{ color: TEAL }}
                         >
                           {t('bookings.cancel')}

@@ -2778,7 +2778,7 @@
       "amenityId": "football",
       "date": "2026-04-26",
       "label": "12:00 PM",
-      "status": "available"
+      "status": "booked"
     },
     {
       "id": "slot-football-2026-04-26-13",
@@ -3472,6 +3472,17 @@
       "slotId": "slot-tennis-2026-04-25-08",
       "date": "2026-04-25",
       "time": "08:00 AM"
+    },
+    {
+      "id": "gR-yrX-onWo",
+      "userId": "user-001",
+      "status": "confirmed",
+      "amenityId": "football",
+      "amenityTitle": "5-a-Side Football",
+      "image": "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=640",
+      "slotId": "slot-football-2026-04-26-12",
+      "date": "2026-04-26",
+      "time": "12:00 PM"
     }
   ],
   "users": [

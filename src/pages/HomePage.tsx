@@ -148,7 +148,7 @@ export function HomePage() {
 
                 <RouterLink
                   to="/bookings"
-                  className="absolute top-3 right-3 inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1 text-[10px] font-bold text-white backdrop-blur-sm transition-colors hover:bg-white/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="absolute cursor-pointer top-3 right-3 inline-flex items-center gap-1 rounded-full bg-white/15 px-2.5 py-1 text-[10px] font-bold text-white backdrop-blur-sm transition-colors hover:bg-white/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                   aria-label={t('home.viewAll') + ' bookings'}
                 >
                   {t('home.viewAll')} <ArrowRight className="size-2.5" aria-hidden="true" />
@@ -216,7 +216,7 @@ export function HomePage() {
                 <p className="text-sm font-medium text-muted-foreground">{t('home.noUpcoming')}</p>
                 <RouterLink
                   to="/amenities"
-                  className="text-xs font-bold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
+                  className="cursor-pointer text-xs font-bold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
                   style={{ color: TEAL }}
                 >
                   {t('home.browseAmenities')}
@@ -316,7 +316,7 @@ export function HomePage() {
             </h2>
             <RouterLink
               to="/amenities"
-              className="inline-flex items-center gap-1 text-xs font-semibold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
+              className="cursor-pointer inline-flex items-center gap-1 text-xs font-semibold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
               style={{ color: TEAL }}
               aria-label={`${t('home.viewAll')} amenities`}
             >

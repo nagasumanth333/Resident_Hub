@@ -258,7 +258,7 @@ function PersonalInfoCard({ user }: { user: UserType }) {
             <button
               type="button"
               onClick={onCancel}
-              className="rounded-md p-1 text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="cursor-pointer rounded-md p-1 text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label="Cancel editing"
             >
               <X className="size-4" aria-hidden="true" />

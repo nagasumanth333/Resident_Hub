@@ -96,7 +96,7 @@ function LanguageSwitcher() {
         type="button"
         onClick={() => setOpen((o) => !o)}
         onKeyDown={handleTriggerKeyDown}
-        className="flex h-9 items-center gap-1.5 rounded-lg border border-transparent px-2.5 text-sm font-semibold transition-colors hover:border-border hover:bg-muted/60 text-[color:var(--primary)]"
+        className="flex h-9 cursor-pointer items-center gap-1.5 rounded-lg border border-transparent px-2.5 text-sm font-semibold transition-colors hover:border-border hover:bg-muted/60 text-[color:var(--primary)]"
         aria-label={`Switch language, current: ${current.label}`}
         aria-expanded={open}
         aria-haspopup="menu"
@@ -130,7 +130,7 @@ function LanguageSwitcher() {
                   triggerRef.current?.focus()
                 }}
                 className={cn(
-                  'flex w-full items-center gap-2.5 px-3 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none',
+                  'flex w-full cursor-pointer items-center gap-2.5 px-3 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none',
                   lang.code === i18n.language && 'font-bold',
                 )}
               >
@@ -196,7 +196,7 @@ function ThemeSwitcher() {
         type="button"
         onClick={() => setOpen((o) => !o)}
         onKeyDown={handleTriggerKeyDown}
-        className="flex h-9 items-center gap-1.5 rounded-lg border border-transparent px-2.5 text-sm font-semibold transition-colors hover:border-border hover:bg-muted/60 text-[color:var(--primary)]"
+        className="flex h-9 cursor-pointer items-center gap-1.5 rounded-lg border border-transparent px-2.5 text-sm font-semibold transition-colors hover:border-border hover:bg-muted/60 text-[color:var(--primary)]"
         aria-label={`Switch theme, current: ${current.label}`}
         aria-expanded={open}
         aria-haspopup="menu"
@@ -229,7 +229,7 @@ function ThemeSwitcher() {
                   triggerRef.current?.focus()
                 }}
                 className={cn(
-                  'flex w-full items-center gap-2.5 px-3 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none',
+                  'flex w-full cursor-pointer items-center gap-2.5 px-3 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none',
                   id === theme && 'font-bold',
                 )}
               >
@@ -294,7 +294,7 @@ function ProfileDropdown() {
         aria-label="Open profile menu"
         aria-expanded={open}
         aria-haspopup="menu"
-        className="flex items-center gap-1.5 rounded-xl p-0.5 transition-colors hover:bg-muted/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="flex cursor-pointer items-center gap-1.5 rounded-xl p-0.5 transition-colors hover:bg-muted/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
       >
         <Avatar
           className="size-9"
@@ -340,7 +340,7 @@ function ProfileDropdown() {
                 type="button"
                 onClick={action}
                 onKeyDown={(e) => handleItemKeyDown(e, index, MENU_ITEMS.length + 1)}
-                className="flex w-full items-center gap-2.5 px-4 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none"
+                className="flex w-full cursor-pointer items-center gap-2.5 px-4 py-2.5 text-left text-sm text-popover-foreground transition-colors hover:bg-muted/50 focus:bg-muted/50 focus:outline-none"
               >
                 <Icon className="size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
                 {label}
@@ -359,7 +359,7 @@ function ProfileDropdown() {
               type="button"
               onClick={() => { navigate('/login'); setOpen(false) }}
               onKeyDown={(e) => handleItemKeyDown(e, MENU_ITEMS.length, MENU_ITEMS.length + 1)}
-              className="flex w-full items-center gap-2.5 px-4 py-2.5 text-left text-sm text-destructive transition-colors hover:bg-destructive/5 focus:bg-destructive/5 focus:outline-none"
+              className="flex w-full cursor-pointer items-center gap-2.5 px-4 py-2.5 text-left text-sm text-destructive transition-colors hover:bg-destructive/5 focus:bg-destructive/5 focus:outline-none"
             >
               <LogOut className="size-4 shrink-0" aria-hidden="true" />
               Sign Out
@@ -505,7 +505,7 @@ export function RootLayout() {
                 {(['footer.guestPass', 'footer.maintenance', 'footer.parcel', 'footer.submitFeedback', 'footer.buildingNotices'] as const).map((key) => (
                   <li key={key}>
                     {/* These are placeholder actions — kept as buttons since they don't navigate */}
-                    <button type="button" className="hover:text-white transition-colors text-left">
+                    <button type="button" className="cursor-pointer hover:text-white transition-colors text-left">
                       {t(key)}
                     </button>
                   </li>
@@ -553,7 +553,7 @@ export function RootLayout() {
               <ul className="flex gap-4 list-none p-0">
                 {(['footer.privacy', 'footer.terms', 'footer.accessibility'] as const).map((key) => (
                   <li key={key}>
-                    <button type="button" className="hover:text-white/70 transition-colors">
+                    <button type="button" className="cursor-pointer hover:text-white/70 transition-colors">
                       {t(key)}
                     </button>
                   </li>

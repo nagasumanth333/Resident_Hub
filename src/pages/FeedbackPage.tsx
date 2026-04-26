@@ -165,7 +165,7 @@ export function FeedbackPage() {
                 <button
                   type="button"
                   onClick={() => setValue('amenityId', undefined)}
-                  className="flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
+                  className="flex cursor-pointer items-center gap-1 text-xs text-muted-foreground hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
                   aria-label="Clear amenity selection"
                 >
                   <X className="size-3" aria-hidden="true" />
@@ -410,7 +410,7 @@ function Header() {
         <button
           type="button"
           onClick={() => navigate(-1)}
-          className="rounded-md p-2 text-[color:var(--primary)] hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          className="cursor-pointer rounded-md p-2 text-[color:var(--primary)] hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           aria-label="Go back"
         >
           <ArrowLeft className="size-5" aria-hidden="true" />

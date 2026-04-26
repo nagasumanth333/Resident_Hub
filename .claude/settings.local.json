@@ -9,7 +9,11 @@
       "Bash(npx vitest:*)",
       "WebFetch(domain:images.pexels.com)",
       "Bash(git --version)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(gh auth:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }

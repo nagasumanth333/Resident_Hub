@@ -428,7 +428,7 @@ function Header() {
       <button
         type="button"
         onClick={() => navigate(-1)}
-        className="rounded-md p-2 text-[color:var(--primary)] hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="cursor-pointer rounded-md p-2 text-[color:var(--primary)] hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         aria-label="Go back"
       >
         <ArrowLeft className="size-5" aria-hidden="true" />
