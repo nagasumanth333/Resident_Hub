@@ -280,7 +280,7 @@ export function BookingPage() {
                           )}
                           style={
                             slot.displayStatus === 'selected'
-                              ? { backgroundColor: TEAL, ringColor: `${TEAL}50` }
+                              ? { backgroundColor: TEAL }
                               : undefined
                           }
                         >

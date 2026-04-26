@@ -1,4 +1,4 @@
-import { screen, waitFor, act } from '@testing-library/react'
+import { screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, describe, expect, it, vi, beforeEach } from 'vitest'
 import { MaintenancePage } from '../MaintenancePage'

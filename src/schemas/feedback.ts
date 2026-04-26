@@ -14,11 +14,11 @@ export type FeedbackCategory = (typeof FEEDBACK_CATEGORIES)[number]['value']
 export const feedbackSchema = z.object({
   category: z.enum(
     FEEDBACK_CATEGORIES.map((c) => c.value) as [FeedbackCategory, ...FeedbackCategory[]],
-    { required_error: 'Please select a category' },
+    { error: 'Please select a category' },
   ),
   amenityId: z.string().optional(),
   rating: z
-    .number({ required_error: 'Please select a rating' })
+    .number({ error: 'Please select a rating' })
     .int()
     .min(1, 'Please select a rating')
     .max(5),
