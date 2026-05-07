@@ -384,7 +384,7 @@ function NavItem({ to, children }: { to: string; children: ReactNode }) {
       end={to === '/'}
       className={({ isActive }) =>
         cn(
-          'text-sm font-semibold pb-3 inline-block border-b-2 transition-colors',
+          'text-sm font-semibold pt-1 pb-3 inline-block border-b-2 transition-colors',
           isActive
             ? 'border-[color:var(--primary)] text-[color:var(--primary)]'
             : 'border-transparent text-[color:var(--primary)] hover:opacity-80',

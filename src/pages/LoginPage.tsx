@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import { ShieldCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { useNavigate, useLocation } from 'react-router-dom'
 import { Logo } from '@/components/Logo'
 import { useAuth } from '@/contexts/AuthContext'
 import { cn } from '@/lib/utils'
@@ -11,7 +13,15 @@ const HERO_IMAGE =
 
 export function LoginPage() {
   const { t } = useTranslation()
-  const { login } = useAuth()
+  const { login, user } = useAuth()
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  const next = new URLSearchParams(location.search).get('next') || '/'
+
+  useEffect(() => {
+    if (user) navigate(next, { replace: true })
+  }, [user, navigate, next])
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#F3F4F6] p-4 sm:p-6">

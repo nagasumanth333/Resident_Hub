@@ -1,4 +1,4 @@
-import { format } from 'date-fns'
+import { addMonths, endOfMonth, format } from 'date-fns'
 import { ArrowLeft, ArrowRight, Bell, CalendarDays, Clock, Loader2, MapPin, Star, Users } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
@@ -22,6 +22,7 @@ export function BookingPage() {
   const { data: user } = useUser()
 
   const today = useMemo(() => new Date(), [])
+  const maxDate = useMemo(() => endOfMonth(addMonths(today, 2)), [])
   const [month, setMonth] = useState(() => new Date())
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(() => new Date())
   const [selectedSlotId, setSelectedSlotId] = useState<string | null>(null)
@@ -188,7 +189,8 @@ export function BookingPage() {
                       setSelectedDate(d)
                       setSelectedSlotId(null)
                     }}
-                    disabled={{ before: today }}
+                    disabled={[{ before: today }, { after: maxDate }]}
+                    endMonth={maxDate}
                     className="w-full max-w-none p-3"
                   />
                   {selectedDate && (
